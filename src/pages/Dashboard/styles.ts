@@ -7,7 +7,7 @@ export const Title = styled.h1`
   max-width: 450px;
   line-height: 56px;
 
-  margin-top: 80px;
+  margin-top: 40px;
 `;
 
 export const Form = styled.form`
@@ -18,7 +18,7 @@ export const Form = styled.form`
 
   input {
     flex: 1;
-    height: 70px;
+    height: 60px;
     padding: 0 24px;
     border: 0;
     border-radius: 5px 0 0 5px;
@@ -31,7 +31,7 @@ export const Form = styled.form`
 
   button {
     width: 210px;
-    height: 70px;
+    height: 60px;
     background: #04d361;
     border-radius: 0 5px 5px 0;
     border: 0;
@@ -53,7 +53,7 @@ export const Repositories = styled.div`
     background: #fff;
     border-radius: 5px;
     width: 100%;
-    padding: 24px;
+    padding: 20px;
     display: block;
     text-decoration: none;
 
@@ -78,6 +78,7 @@ export const Repositories = styled.div`
 
     div {
       margin-left: 16px;
+      flex: 1;
 
       strong {
         font-size: 20px;
